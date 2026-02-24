@@ -382,6 +382,20 @@ body {
       .sticky .btn{ flex:1; justify-content:center; }
       tbody td:last-child{ font-size: 14px; }
     }
+    @media (max-width: 768px) {
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+}
     @media (max-width: 560px){
       .actions{ width:100%; justify-content:flex-start; }
       .grid{ grid-template-columns: 1fr; }
@@ -408,3 +422,6 @@ body {
         font-weight: 500;
       }
     }
+
+
+    
