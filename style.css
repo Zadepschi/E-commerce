@@ -162,38 +162,7 @@ body {
       color: rgba(255,255,255,.85);
       font-size: 13px;
     }
-    .hero-card{
-      border-radius: var(--radius2);
-      border: 1px solid var(--line);
-      background: rgba(0,0,0,.18);
-      padding: 14px;
-      display:flex;
-      flex-direction:column;
-      gap: 10px;
-    }
-    .hero-card .row{
-      display:flex;
-      justify-content:space-between;
-      align-items:flex-start;
-      gap: 10px;
-      padding: 10px;
-      border-radius: 14px;
-      background: rgba(255,255,255,.05);
-      border: 1px solid rgba(255,255,255,.08);
-    }
-    .hero-card .row b{ font-weight: 650; }
-    .hero-card .row span{
-      color: var(--muted);
-      font-size: 13px;
-      margin-top: 2px;
-      display:block;
-    }
-    .hero-card .price-tag{
-      font-weight: 700;
-      letter-spacing: .2px;
-      color: rgba(255,255,255,.92);
-      white-space: nowrap;
-    }
+
 
     /* Sections */
     section{
